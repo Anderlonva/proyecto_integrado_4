@@ -1,0 +1,7 @@
+0 - conda create -n entorno_p4 python=3.10.10
+1 - cada vez que abra el proyecto activar el entorno (  conda activate entorno_p4  )   Ctrl + Shift + P seleccionar (Python: Select Interpreter) ( entorno_p4  )
+2 - pip install -r requirements.txt
+
+
+
+
