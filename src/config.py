@@ -5,7 +5,7 @@ DATASET_ROOT_PATH = str(Path(__file__).parent.parent / "dataset")
 QUERIES_ROOT_PATH = str(Path(__file__).parent.parent / "queries")
 QUERY_RESULTS_ROOT_PATH = str(Path(__file__).parent.parent / "tests/query_results")
 PUBLIC_HOLIDAYS_URL = "https://date.nager.at/api/v3/publicholidays/2017/BR"     # se actualiza la api suministrada, ya que la anterior no tenia acceso.
-SQLITE_BD_ABSOLUTE_PATH = str(Path(__file__).parent.parent / "olist.db")
+SQLITE_BD_ABSOLUTE_PATH = str(Path(__file__).parent.parent / "data")   # C:\proyecto_integrador_Anderson_Londono\data\olist.db   
 
 
 def get_csv_to_table_mapping() -> Dict[str, str]:
